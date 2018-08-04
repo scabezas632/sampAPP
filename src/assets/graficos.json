@@ -1,0 +1,39 @@
+{
+    "graficos": [{
+            "name": "En tiempo real",
+            "children": [{
+                    "name": "Temperatura",
+                    "children": [{
+                        "name": "Últimas 10 Mediciones",
+                        "nameGraph": "chartTemperature"
+                    }]
+                },
+                {
+                    "name": "Luz",
+                    "children": [{
+                        "name": "Últimas 10 Mediciones",
+                        "nameGraph": "chartLux"
+                    }]
+                }
+            ]
+        },
+        {
+            "name": "Promedio última semana",
+            "children": [{
+                    "name": "Temperatura",
+                    "children": [{
+                        "name": "Mediciones de la última semana",
+                        "nameGraph": "chartTemperatureLastWeek"
+                    }]
+                },
+                {
+                    "name": "Luz",
+                    "children": [{
+                        "name": "Mediciones de la última semana",
+                        "nameGraph": "chartLuxLastWeek"
+                    }]
+                }
+            ]
+        }
+    ]
+}
